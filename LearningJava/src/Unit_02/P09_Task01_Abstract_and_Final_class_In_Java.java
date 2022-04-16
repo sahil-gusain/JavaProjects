@@ -13,7 +13,7 @@ package Unit_02;
    - interface is  a 100% abstract class
    FINAL CLASS
    -In java, a class declared with final keyword is called as final class. Inheritance is not possible with final class
-   
+   -Main purpose of final class is to prevent a class extend another class 
  */
 abstract class Bike{
 	int a;
