@@ -10,7 +10,8 @@ public class P2_Task02_ConstantsInJava {
     */
     
     public static void main(String[] args) {
-		final int a=10;
+		final int 
+		a=10;
 		//a=11;// we can't change a constant(final) variable 
 		//static function can't access non-static members
 		System.out.println(pi);// use sysout + ctrl +space  shortcut for System.out.println()
