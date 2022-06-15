@@ -1,5 +1,6 @@
 package Unit_03;
 /*we use try & catch to write sensitive code so that it doesn't terminates
+
  * alag alag case kae liye alag alag catch hota hai 
  * 1 try kae multiple catch ho saktae hai
  * kabhi super class ka exception catch mae pahelae nhi likh sakthe
@@ -7,7 +8,7 @@ package Unit_03;
  * throws :-we let complier decide how to deal with the exception 
  * we use throw in only function
  * finally is generally use to cleanup i.e. close a file etc 
- * 
+ * finally always runs wheather there is a exception or not,even if there is approprate catch and try 
  * 
  */
 import java.util.*;
