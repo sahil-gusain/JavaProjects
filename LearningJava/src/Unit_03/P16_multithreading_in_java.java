@@ -27,6 +27,7 @@ package Unit_03;
  * 
  * Implement and extend works similar but we use we prefer "implement " because "extend" is costlier then implementing
  * 
+ * we 
  * 
  */
 import java.util.*;
@@ -36,12 +37,10 @@ public class P16_multithreading_in_java {
 		
 		Thread obj1 = new Thread(new T1(),"T1");
 		Thread obj2 = new Thread(new T2(),"T2");
-		
-		obj1.start();
-		obj2.start();
-		
 		Thread obj3 = new Thread(new T3(),"T3");
 		Thread obj4 = new Thread(new T4(),"T4");
+		obj1.start();
+		obj2.start();
 		obj3.start();
 		obj4.start();
 	}
@@ -61,7 +60,7 @@ public class P16_multithreading_in_java {
 class c1{
 	void show1() {
 		for(int i=0;i<10;i++) {
-			System.out.println("hey_1");
+			System.out.println("hey_3");
 		}
 	}
 }
@@ -96,7 +95,7 @@ class T2 implements Runnable{
 class T3 implements Runnable{
 	public void run() {
 		try {
-			Thread.sleep(10);
+			Thread.sleep(1000);
 		}catch(InterruptedException e) {
 			System.out.println("T3 is done");
 		}
