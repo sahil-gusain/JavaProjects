@@ -97,12 +97,13 @@ class T3 implements Runnable{
 		try {
 			Thread.sleep(1000);
 		}catch(InterruptedException e) {
-			System.out.println("T3 is done");
+				e.printStackTrace();
 		}
+		System.out.println("T3 is done");
 	}
 }
 class T4 extends Thread {
-	public void Run() {
+	public void run() {
 		for(int i=0;i<10;i++)
 		{
 			System.out.println("hey_3");
