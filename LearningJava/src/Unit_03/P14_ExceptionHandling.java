@@ -10,6 +10,18 @@ package Unit_03;
  * finally is generally use to cleanup i.e. close a file etc 
  * finally always runs wheather there is a exception or not,even if there is approprate catch and try 
  * 
+ * The try statement allows you to define a block of code to be tested for errors while it is being executed.
+ * The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+ * The try and catch keywords come in pairs
+ * 
+ * The finally statement lets you execute code, after try...catch, regardless of the result
+ * 
+ * The throw statement allows you to create a custom error.
+ * 
+ * The throw statement is used together with an exception type. 
+ * There are many exception types available in Java: ArithmeticException, FileNotFoundException, ArrayIndexOutOfBoundsException, SecurityException, etc:
+ *
+ *
  */
 import java.util.*;
 public class P14_ExceptionHandling {
